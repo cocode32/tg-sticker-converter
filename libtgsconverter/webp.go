@@ -3,18 +3,18 @@ package libtgsconverter
 import "bytes"
 import "image"
 
-import "github.com/sizeofint/webpanimation"
+import "github.com/watgbridge/webp"
 
 type towebp struct {
 	timestamp int
-	webpanim *webpanimation.WebpAnimation
-	config webpanimation.WebPConfig
+	webpanim *webp.WebpAnimation
+	config webp.WebPConfig
 }
 
 func(to_webp *towebp) init(w uint, h uint, options ConverterOptions) {
 	to_webp.timestamp = 0
-	to_webp.webpanim = webpanimation.NewWebpAnimation(int(w), int(h), 0)
-	to_webp.config = webpanimation.NewWebpConfig()
+	to_webp.webpanim = webp.NewWebpAnimation(int(w), int(h), 0)
+	to_webp.config = webp.NewWebpConfig()
 	to_webp.config.SetQuality(options.GetWebpQuality())
 }
 

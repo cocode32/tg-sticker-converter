@@ -4,7 +4,7 @@ import "io/ioutil"
 import "path/filepath"
 import "os"
 
-import "github.com/Benau/tgsconverter/libtgsconverter"
+import "github.com/watgbridge/tgsconverter/libtgsconverter"
 
 func main() {
 	if len(os.Args) != 3 {
