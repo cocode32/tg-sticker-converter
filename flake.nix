@@ -16,16 +16,11 @@
         in {
 
             devShell = pkgs.mkShell {
-                name = "<name>-dev";
+                name = "tgsconverter-dev";
                 nativeBuildInputs = with pkgs; [
                     go
                     gopls
                 ];
-            };
-
-            packages = rec {
-                name = (pkgs.callPackage ./nix/pkgs/name.nix);
-                default = name;
             };
 
         }
