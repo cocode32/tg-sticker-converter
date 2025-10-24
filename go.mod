@@ -1,10 +1,11 @@
 module github.com/cocode32/tg-sticker-converter
 
-go 1.22.3
+go 1.24.0
 
 require (
 	github.com/Benau/go_rlottie v0.0.0-20210807002906-98c1b2421989
 	github.com/av-elier/go-decimal-to-rational v0.0.0-20191127152832-89e6aad02ecf
+	github.com/cocode32/watg-webp v0.0.0-20251024095350-afd422edf83c
 	github.com/kettek/apng v0.0.0-20191108220231-414630eed80f
 )
 

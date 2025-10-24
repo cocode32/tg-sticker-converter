@@ -2,6 +2,8 @@ github.com/Benau/go_rlottie v0.0.0-20210807002906-98c1b2421989 h1:+wrfJITuBoQOE6
 github.com/Benau/go_rlottie v0.0.0-20210807002906-98c1b2421989/go.mod h1:aDWSWjsayFyGTvHZH3v4ijGXEBe51xcEkAK+NUWeOeo=
 github.com/av-elier/go-decimal-to-rational v0.0.0-20191127152832-89e6aad02ecf h1:csfEAyvOG4/498Q4SyF48ysFqQC9ESj3o8ppRtg+Rog=
 github.com/av-elier/go-decimal-to-rational v0.0.0-20191127152832-89e6aad02ecf/go.mod h1:POPnOeaYF7U9o3PjLTb9icRfEOxjBNLRXh9BLximJGM=
+github.com/cocode32/watg-webp v0.0.0-20251024095350-afd422edf83c h1:SvbHrjS7SQ8M4/ntjX1As8iUx+5kelgiNth2zGqFSGg=
+github.com/cocode32/watg-webp v0.0.0-20251024095350-afd422edf83c/go.mod h1:3CTBw2eUBF/yDjqZu8VfMpd1m4wOPNvcvCXWg7oGDss=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/kettek/apng v0.0.0-20191108220231-414630eed80f h1:dnCYnTSltLuPMfc7dMrkz2uBUcEf/OFBR8yRh3oRT98=
@@ -11,8 +13,6 @@ github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZN
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
-github.com/watgbridge/webp v0.0.0-20240630070243-84d3a70502bb h1:ScNT6ubA5fVjA4IKR9JhOrVjzUAb/3eHNqyFP55Nruk=
-github.com/watgbridge/webp v0.0.0-20240630070243-84d3a70502bb/go.mod h1:TqnmhmYJVPcl/RYFCJ6xf6KJfJQTqVwXpGTvzPVhqF0=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c h1:dUUwHk2QECo/6vqA44rthZ8ie2QXMNeKRTHCNY2nXvo=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
