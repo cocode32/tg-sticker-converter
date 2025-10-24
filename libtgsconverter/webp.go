@@ -3,22 +3,22 @@ package libtgsconverter
 import "bytes"
 import "image"
 
-import "github.com/watgbridge/webp"
+import "github.com/cocode32/watg-webp"
 
 type towebp struct {
 	timestamp int
-	webpanim *webp.WebpAnimation
-	config webp.WebPConfig
+	webpanim  *webp.WebpAnimation
+	config    webp.WebPConfig
 }
 
-func(to_webp *towebp) init(w uint, h uint, options ConverterOptions) {
+func (to_webp *towebp) init(w uint, h uint, options ConverterOptions) {
 	to_webp.timestamp = 0
 	to_webp.webpanim = webp.NewWebpAnimation(int(w), int(h), 0)
 	to_webp.config = webp.NewWebpConfig()
 	to_webp.config.SetQuality(options.GetWebpQuality())
 }
 
-func(to_webp *towebp) SupportsAnimation() bool {
+func (to_webp *towebp) SupportsAnimation() bool {
 	return true
 }
 
